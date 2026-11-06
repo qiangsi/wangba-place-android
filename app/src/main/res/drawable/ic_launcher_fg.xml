@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- 绿盾十字（游戏图标） -->
+    <path android:fillColor="#50a8b4" android:pathData="M54,36 h18 v36 h-18 z M45,45 h36 v18 h-36 z" />
+    <path android:fillColor="#2e6e77" android:pathData="M54,30 h6 v48 h-6 z M30,51 h48 v6 h-48 z" />
+</vector>
