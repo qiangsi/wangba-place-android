@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">网吧，PLEASE</string>
-    <style name="Theme.WangbaPlace" parent="Theme.AppCompat.NoActionBar">
+    <style name="Theme.WangbaPlace" parent="@android:style/Theme.Material.NoActionBar">
         <item name="android:windowBackground">@android:color/black</item>
         <item name="android:statusBarColor">@android:color/black</item>
         <item name="android:navigationBarColor">@android:color/black</item>
