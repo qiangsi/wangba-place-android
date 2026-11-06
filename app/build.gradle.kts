@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
 }
@@ -16,7 +18,7 @@ android {
 
     signingConfigs {
         create("release") {
-            val ksProps = java.util.Properties()
+            val ksProps = Properties()
             val f = rootProject.file("keystore/keystore.properties")
             if (f.exists()) {
                 f.inputStream().use { ksProps.load(it) }
